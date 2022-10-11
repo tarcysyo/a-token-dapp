@@ -1,0 +1,756 @@
+ Welcome to Remix 0.27.0 
+
+Your files are stored in indexedDB, 68.23 KB / 4.77 MB used
+
+You can use this terminal to: 
+
+    Check transactions details and start debugging.
+    Execute JavaScript scripts:
+     - Input a script directly in the command line interface 
+     - Select a Javascript file in the file explorer and then run \`remix.execute()\` or \`remix.exeCurrent()\`  in the command line interface  
+     - Right click on a JavaScript file in the file explorer and then click \`Run\` 
+
+The following libraries are accessible:
+
+    web3 version 1.5.2
+    ethers.js 
+    remix
+
+Type the library name to see available commands.
+
+creation of Receiver pending...
+
+[block:23620052 txIndex:2]
+from: 0x62e...2232f
+to: Receiver.(constructor)
+value: 0 wei
+data: 0x608...10033
+logs: 1
+hash: 0xcac...c3d35
+status	true Transaction mined and execution succeed
+transaction hash	0x3bbe0017dccde418c26a5b9ad48d16e8ae2a5b60076b055838f8bcb60d3a32cc
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	Receiver.(constructor)
+gas	403489 gas
+transaction cost	403489 gas 
+input	0x608...10033
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x20076470b9344D0a0D04f36Aca9B76aE98EF3bA4",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f"
+		}
+	}
+]
+val	0 wei
+
+creation of Factory pending...
+
+[block:23620126 txIndex:2]
+from: 0x62e...2232f
+to: Factory.(constructor)
+value: 0 wei
+data: 0x608...10033
+logs: 1
+hash: 0x461...e90be
+status	true Transaction mined and execution succeed
+transaction hash	0x100cc86b7050875b3a5fac7e23ff059f8f6ff6cb47a107e0398e5749e5244237
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	Factory.(constructor)
+gas	5092139 gas
+transaction cost	5092139 gas 
+input	0x608...10033
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f"
+		}
+	}
+]
+val	0 wei
+
+transact to Factory.deployNewERC20Token pending ... 
+
+[block:23620152 txIndex:1]
+from: 0x62e...2232f
+to: Factory.deployNewERC20Token(string,string,uint8,address[],uint256[]) 0x4d2...Ff885
+value: 0 wei
+data: 0x29d...00064
+logs: 8
+hash: 0xafb...45258
+status	true Transaction mined and execution succeed
+transaction hash	0xab174ac2f448177ea5030670af667ad0775089a1383c24caeb0438b4edfc47ec
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	Factory.deployNewERC20Token(string,string,uint8,address[],uint256[]) 0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885
+gas	3195547 gas
+transaction cost	3190012 gas 
+input	0x29d...00064
+decoded input	{
+	"string name": "NEO JAN 2023",
+	"string symbol": "JAN23",
+	"uint8 gain": 1,
+	"address[] receivers": [
+		"0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+		"0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+		"0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+		"0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+		"0x17F6AD8Ef982297579C203069C1DbfFE4348c372"
+	],
+	"uint256[] amounts": [
+		"100",
+		"500",
+		"200",
+		"100",
+		"100"
+	]
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885"
+		}
+	},
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+			"2": "495000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+			"value": "495000000000000000000"
+		}
+	},
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+			"2": "198000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+			"value": "198000000000000000000"
+		}
+	},
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x17F6AD8Ef982297579C203069C1DbfFE4348c372",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x17F6AD8Ef982297579C203069C1DbfFE4348c372",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"2": "10000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"value": "10000000000000000000"
+		}
+	},
+	{
+		"from": "0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"previousOwner": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"newOwner": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f"
+		}
+	}
+]
+val	0 wei
+
+transact to Factory.deployNewERC20Token pending ... 
+
+[block:23620163 txIndex:3]
+from: 0x62e...2232f
+to: Factory.deployNewERC20Token(string,string,uint8,address[],uint256[]) 0x4d2...Ff885
+value: 0 wei
+data: 0x29d...00064
+logs: 8
+hash: 0x14a...fe2c3
+status	true Transaction mined and execution succeed
+transaction hash	0xd14de0c532621813fa14edc9e279af89ce7cf44edb3548595dba8ad4f831d242
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	Factory.deployNewERC20Token(string,string,uint8,address[],uint256[]) 0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885
+gas	3195547 gas
+transaction cost	3175012 gas 
+input	0x29d...00064
+decoded input	{
+	"string name": "NEO FEV 2023",
+	"string symbol": "FEV23",
+	"uint8 gain": 1,
+	"address[] receivers": [
+		"0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+		"0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+		"0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+		"0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+		"0x17F6AD8Ef982297579C203069C1DbfFE4348c372"
+	],
+	"uint256[] amounts": [
+		"100",
+		"500",
+		"200",
+		"100",
+		"100"
+	]
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885"
+		}
+	},
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+			"2": "495000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+			"value": "495000000000000000000"
+		}
+	},
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+			"2": "198000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+			"value": "198000000000000000000"
+		}
+	},
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x17F6AD8Ef982297579C203069C1DbfFE4348c372",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x17F6AD8Ef982297579C203069C1DbfFE4348c372",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"2": "10000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"value": "10000000000000000000"
+		}
+	},
+	{
+		"from": "0xF4CCFe098082870039af4b9Cec754A254284B188",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"previousOwner": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"newOwner": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f"
+		}
+	}
+]
+val	0 wei
+
+transact to Factory.deployNewERC20Token pending ... 
+
+[block:23620172 txIndex:3]
+from: 0x62e...2232f
+to: Factory.deployNewERC20Token(string,string,uint8,address[],uint256[]) 0x4d2...Ff885
+value: 0 wei
+data: 0x29d...00064
+logs: 8
+hash: 0xe2f...08079
+status	true Transaction mined and execution succeed
+transaction hash	0x17fee6cf3a91d23537c6ac3497cfe81794a335089897a0f9d7ed06d7af63a924
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	Factory.deployNewERC20Token(string,string,uint8,address[],uint256[]) 0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885
+gas	3195547 gas
+transaction cost	3175012 gas 
+input	0x29d...00064
+decoded input	{
+	"string name": "NEO MAR 2023",
+	"string symbol": "MAR23",
+	"uint8 gain": 1,
+	"address[] receivers": [
+		"0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+		"0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+		"0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+		"0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+		"0x17F6AD8Ef982297579C203069C1DbfFE4348c372"
+	],
+	"uint256[] amounts": [
+		"100",
+		"500",
+		"200",
+		"100",
+		"100"
+	]
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885"
+		}
+	},
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+			"2": "495000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+			"value": "495000000000000000000"
+		}
+	},
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+			"2": "198000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+			"value": "198000000000000000000"
+		}
+	},
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x17F6AD8Ef982297579C203069C1DbfFE4348c372",
+			"2": "99000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x17F6AD8Ef982297579C203069C1DbfFE4348c372",
+			"value": "99000000000000000000"
+		}
+	},
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"2": "10000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"value": "10000000000000000000"
+		}
+	},
+	{
+		"from": "0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"1": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f",
+			"previousOwner": "0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885",
+			"newOwner": "0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f"
+		}
+	}
+]
+val	0 wei
+
+call to Factory.allTokens
+
+call
+[call]
+from: 0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to: Factory.allTokens()
+data: 0x6ff...97f1d
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	Factory.allTokens() 0x4d239c4BB6ed0bc34A7A2532B090aCE325DFf885
+input	0x6ff...97f1d
+decoded input	{}
+decoded output	{
+	"0": "address[]: 0xA8Cb953ee8893A5640f4a417feAC81Ea8170f2DE,0xF4CCFe098082870039af4b9Cec754A254284B188,0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9"
+}
+logs	[]
+
+call to Factory.tokens
+
+call
+[call]
+from: 0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to: Factory.tokens(uint256)
+data: 0x4f6...00000
+
+call to Factory.tokens
+
+call
+[call]
+from: 0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to: Factory.tokens(uint256)
+data: 0x4f6...00001
+
+call to Factory.tokens
+
+call
+[call]
+from: 0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to: Factory.tokens(uint256)
+data: 0x4f6...00002
+
+call to Factory.owner
+
+call
+[call]
+from: 0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to: Factory.owner()
+data: 0x8da...5cb5b
+
+call to CustomERC20.beganAt
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0xedf...97551
+logs: 0
+hash: 
+
+call to CustomERC20.decimals
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x313...ce567
+logs: 0
+hash: 
+
+call to CustomERC20.checkValidity
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x5d5...b08d5
+logs: 0
+hash: 
+
+call to CustomERC20.DOMAIN_SEPARATOR
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x364...4e515
+logs: 0
+hash: 
+
+call to CustomERC20.gain
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x992...6223c
+logs: 0
+hash: 
+
+call to CustomERC20.getReceipt
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x57d...945c9
+logs: 0
+hash: 
+
+call to CustomERC20.name
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x06f...dde03
+logs: 0
+hash: 
+
+call to CustomERC20.owner
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x8da...5cb5b
+logs: 0
+hash: 
+status	null 
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9
+input	0x8da...5cb5b
+decoded output	 - 
+
+call to CustomERC20.paused
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x5c9...75abb
+logs: 0
+hash: 
+status	null 
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9
+input	0x5c9...75abb
+decoded output	 - 
+
+call to CustomERC20.receiptCount
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x7f0...38f3c
+logs: 0
+hash: 
+status	null 
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9
+input	0x7f0...38f3c
+decoded output	 - 
+
+call to CustomERC20.receiver
+
+call to CustomERC20.receiver
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0xf72...60d3e
+logs: 0
+hash: 
+status	null 
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9
+input	0xf72...60d3e
+decoded output	 - 
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0xf72...60d3e
+logs: 0
+hash: 
+status	null 
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9
+input	0xf72...60d3e
+decoded output	 - 
+
+call to CustomERC20.symbol
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x95d...89b41
+logs: 0
+hash: 
+status	null 
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9
+input	0x95d...89b41
+decoded output	 - 
+
+call to CustomERC20.totalSupply
+
+ 
+call
+[block: txIndex:]
+from: 0x62e...2232f
+to: 0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9 0x20B...800a9
+value: 0 wei
+data: 0x181...60ddd
+logs: 0
+hash: 
+status	null 
+from	0x62efAd375aE21637F38FBa5F6B9F0fC55cc2232f
+to	0x20BE14898d46345Ef02ADAD2fF56ECd57AE800a9
+input	0x181...60ddd
+decoded output	 - 
+>
